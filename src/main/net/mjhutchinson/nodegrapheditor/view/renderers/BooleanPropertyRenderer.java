@@ -2,6 +2,7 @@ package net.mjhutchinson.nodegrapheditor.view.renderers;
 
 import javafx.geometry.Point2D;
 import javafx.scene.canvas.GraphicsContext;
+import net.mjhutchinson.nodegrapheditor.model.BooleanProperty;
 
 /**
  * Created by Michael Hutchinson on 03/01/2016 at 12:21.
