@@ -17,6 +17,9 @@ public class Globals {
     public static float minorGridlineSpacing = 25.0f;
     public static float minorGridlineWidth = 0.5f;
 
+    /**
+     * Predefined colors for the UI
+     */
     public static class Colors{
         public static final Color BACKGROUND = new Color(0.222,0.222,0.222,1);
         public static final Color GRIDLINES = new Color(0.160,0.160,0.160,1);

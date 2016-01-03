@@ -1,0 +1,9 @@
+.standard{
+    -fx-background-color: #3C3F41;
+    -fx-border-color: #555555;
+    -fx-text-fill: #aaaaaa;
+}
+
+.label{
+    -fx-text-fill: #aaaaaa;
+}

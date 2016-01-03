@@ -9,9 +9,9 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.mjhutchinson.nodegrapheditor.MainWindowController">
+<VBox prefHeight="600.0" prefWidth="900.0" styleClass="standard" stylesheets="@MainStyle.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.mjhutchinson.nodegrapheditor.MainWindowController">
   <children>
-    <MenuBar VBox.vgrow="NEVER">
+    <MenuBar styleClass="standard" stylesheets="@MainStyle.css" VBox.vgrow="NEVER">
       <menus>
         <Menu mnemonicParsing="false" text="File">
           <items>
@@ -52,7 +52,7 @@
     </MenuBar>
     <SplitPane fx:id="mainSplitPane" dividerPositions="0.2505567928730512, 0.7505567928730512" focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <items>
-        <AnchorPane>
+        <AnchorPane styleClass="standard">
           <children>
             <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" minWidth="60.0" prefWidth="-1.0" style="&#10;" text="Master" textAlignment="CENTER" wrapText="false">
               <font>
@@ -66,10 +66,10 @@
         </AnchorPane>
         <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" prefHeight="-1.0" prefWidth="-1.0" vbarPolicy="NEVER">
                <content>
-                  <Canvas fx:id="canvas" height="1080.0" onMouseClicked="#onCanvasMouseClicked" onMouseDragged="#onCanvasMouseDragged" onMousePressed="#onCanvasMousePressed" onMouseReleased="#onCanvasMouseReleased" onScroll="#onCanvasScroll" width="1920.0" />
+                  <Canvas fx:id="canvas" height="1080.0" onMouseClicked="#onCanvasMouseClicked" onMouseDragged="#onCanvasMouseDragged" onMousePressed="#onCanvasMousePressed" onMouseReleased="#onCanvasMouseReleased" onScroll="#onCanvasScroll" styleClass="standard" width="1920.0" />
                </content>
         </ScrollPane>
-        <AnchorPane>
+        <AnchorPane styleClass="standard">
           <children>
             <Label alignment="CENTER" font="$x1" layoutX="14.0" layoutY="14.0" style="&#10;" text="Details" textAlignment="CENTER" textFill="$x2" wrapText="false" />
           </children>
